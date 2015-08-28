@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">final_presentation</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_list">MainList</string>
+    <string name="title_activity_objectives">Objectives</string>
+    <string name="title_activity_workshop">Workshop</string>
+    <string name="title_activity_kpi">KPI</string>
+    <string name="title_activity_facts">Facts</string>
+    <string name="title_activity_result2">Result2</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_challenges">Challenges</string>
+    <string name="title_activity_lessons_learnt">LessonsLearnt</string>
+    <string name="title_activity_recommendations">Recommendations</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_preparation">Preparation</string>
+    <string name="title_activity_class1">Class1</string>
+    <string name="title_activity_after_event">AfterEvent</string>
+    <string name="title_activity_call_for_actions">CallForActions</string>
+    <string name="title_activity_bill_interview">BillInterview</string>
+    <string name="title_activity_gallery_list">GalleryList</string>
+    <string name="title_activity_hkphotos">HKPhotos</string>
+    <string name="title_activity_gaoming_photos">GaomingPhotos</string>
+</resources>

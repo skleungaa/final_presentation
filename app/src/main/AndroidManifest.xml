@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_presentation.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomePage"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainList"
+            android:label="@string/title_activity_main_list"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Objectives"
+            android:label="@string/title_activity_objectives"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Workshop"
+            android:label="@string/title_activity_workshop"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".KPI"
+            android:label="@string/title_activity_kpi"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_video"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".LessonsLearnt"
+            android:label="@string/title_activity_lessons_learnt"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Recommendations"
+            android:label="@string/title_activity_recommendations"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Preparation"
+            android:label="@string/title_activity_preparation"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Class1"
+            android:label="@string/title_activity_class1"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".AfterEvent"
+            android:label="@string/title_activity_after_event"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".CallForActions"
+            android:label="@string/title_activity_call_for_actions"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".BillInterview"
+            android:label="@string/title_activity_bill_interview"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GalleryList"
+            android:label="@string/title_activity_gallery_list"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".HKPhotos"
+            android:label="@string/title_activity_hkphotos"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name=".GaomingPhotos"
+            android:label="@string/title_activity_gaoming_photos"
+            android:screenOrientation="landscape">
+        </activity>
+    </application>
+
+</manifest>

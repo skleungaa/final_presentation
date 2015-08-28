@@ -1,0 +1,50 @@
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/videoRelativeLayout"
+                    tools:context="com.example.final_presentation.app.Video">
+
+
+        <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/videoView"
+                android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/left_drawer"
+                    android:layout_width="240dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:choiceMode="singleChoice"
+                    android:divider="@android:color/transparent"
+                    android:dividerHeight="0dp"
+                    android:background="#111">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:id="@+id/drawer_image"
+                android:background="@drawable/android_image"
+                android:src="@drawable/android_image"
+                android:clickable="true"/>
+
+        <ListView
+                android:id="@+id/drawer_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/drawer_image"
+                android:layout_marginTop="20dp"
+                android:text="Unidentified"
+                android:textColor="#FFFFFF"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>
